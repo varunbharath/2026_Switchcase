@@ -25,5 +25,15 @@ public class google {
 		WebElement address=driver.findElement(By.xpath("//*[@ng-model='Adress']"));
 		address.sendkeys("xxxxxxxxxxxxxxx");
 	}
+	
+	@Test
+	public void d() {
+		WebElement email=driver.findElement(By.xpath("//*[@ng-model='EmailAdress']"));
+		email.sendkeys("bharath@gmail.com");
+		WebElement phone=driver.findElement(By.xpath("//*[@ng-model='Phone']"));
+		phone.sendkeys("9876543321");
+	}
+		
+	}
 
 }
