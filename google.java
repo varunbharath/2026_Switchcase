@@ -16,12 +16,14 @@ public class google {
 	@Test 
 	public void b() {
 		WebElement aa=driver.findElement(By.xpath("//input[@placeholder='First Name']"));
-		aa.sendkeys("uyfuyfye");
+		aa.sendkeys("varun");
 	}
 	@Test 
 	public void c() {
-		WebElement bb=driver.findElement(By.xpath("//input[@placeholder='First Name']"));
-		bb.sendkeys("uyfuyfye");
+		WebElement bb=driver.findElement(By.xpath("//input[@placeholder='Last Name']"));
+		bb.sendkeys("bharath");
+		WebElement address=driver.findElement(By.xpath("//*[@ng-model='Adress']"));
+		address.sendkeys("xxxxxxxxxxxxxxx");
 	}
 
 }
