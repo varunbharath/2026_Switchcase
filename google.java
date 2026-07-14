@@ -18,5 +18,10 @@ public class google {
 		WebElement aa=driver.findElement(By.xpath("//input[@placeholder='First Name']"));
 		aa.sendkeys("uyfuyfye");
 	}
+	@Test 
+	public void c() {
+		WebElement bb=driver.findElement(By.xpath("//input[@placeholder='First Name']"));
+		bb.sendkeys("uyfuyfye");
+	}
 
 }
