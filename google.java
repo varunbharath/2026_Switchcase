@@ -33,6 +33,18 @@ public class google {
 		WebElement phone=driver.findElement(By.xpath("//*[@ng-model='Phone']"));
 		phone.sendkeys("9876543321");
 	}
+	@Test// checkbox12344
+	public void E() {
+		WebElement male=driver.findElement(By.xpath("//input[@value='Male']"));
+		male.click();
+		WebElement cricket=driver.findElement(By.xpath("//input[@value='Cricket']"));
+		cricket.click();
+		WebElement movies=driver.findElement(By.xpath("//input[@value='Movies']"));
+		movies.click();
+		WebElement hockey=driver.findElement(By.xpath("//input[@value='Hockey']"));
+		hockey.click();
+	}
+	
 		
 	}
 
